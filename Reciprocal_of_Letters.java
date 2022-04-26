@@ -1,5 +1,7 @@
 package GeeksforGeeks;
-
+/*
+ @version - 26th April 2022
+ */
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
@@ -21,7 +23,7 @@ class Reciprocal
 
         for(int i=0; i<str.length(); i++)
         {
-            if(!Character.isLetter(str.codePointAt(i)))
+            if(!Character.isLetter(str.charAt(i)))
             {
                 stringBuffer.append(str.charAt(i));
             }
