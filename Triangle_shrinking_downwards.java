@@ -2,6 +2,14 @@ package GeeksforGeeks;
 
 import java.io.*;
 
+/**
+ * This program prints like this
+ * Input - Time
+ * Output - Time
+ *          .ime
+ *          ..me
+ *          ...e
+ */
 class Triangle_shrinking_downwards {
     public static void main(String[] args) throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));
