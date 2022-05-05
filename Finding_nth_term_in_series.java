@@ -1,4 +1,4 @@
-package GeeksforGeeks.Programs;
+package GeeksforGeeks;
 
 import java.io.BufferedReader;
 import java.io.IOException;
