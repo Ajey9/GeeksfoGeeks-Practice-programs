@@ -1,4 +1,4 @@
-package GeeksforGeeks;
+package GeeksforGeeks.Basic;
 
 public class Addition {
 

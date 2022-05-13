@@ -1,4 +1,4 @@
-package GeeksforGeeks;
+package GeeksforGeeks.Basic;
 import java.util.*;
 import java.lang.*;
 

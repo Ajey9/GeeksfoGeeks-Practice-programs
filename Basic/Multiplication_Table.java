@@ -1,4 +1,4 @@
-package GeeksforGeeks;
+package GeeksforGeeks.Basic;
 
 import java.io.IOException;
 import java.util.ArrayList;

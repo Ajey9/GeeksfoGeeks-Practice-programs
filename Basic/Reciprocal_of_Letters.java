@@ -1,4 +1,4 @@
-package GeeksforGeeks;
+package GeeksforGeeks.Basic;
 /*
  @version - 26th April 2022
  */
