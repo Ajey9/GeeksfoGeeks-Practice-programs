@@ -29,15 +29,13 @@ class Mat
         public int DiagonalSum(int[][] matrix)
         {
             int sum = 0;
-            for(int i=0;i<matrix.length;i++)
+            for(int i=0;i<matrix.length;i++) {
+                sum = sum + matrix[i][i];
+            }
+
+            for(int j= matrix.length-1,i=0; j>=0;j--)
             {
-                for(int j=0;j<matrix.length;j++)
-                {
-                    if(i==j)
-                    {
-                        sum = sum + matrix[i][j];
-                    }
-                }
+                sum += matrix[i++][j];
             }
             return sum;
         }
