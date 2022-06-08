@@ -29,7 +29,6 @@ class Single {
         for(int i=0;i<N;i++)
         {
            single = single ^ arr[i];
-            System.out.println(single);
         }
         return single;
     }
